@@ -1,0 +1,16 @@
+Source: redmine-plugin-whining
+Section: web
+Priority: extra
+Maintainer: Enrico Weigelt, metux IT service <weigelt@metux.de>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7)
+
+Package: redmine-plugin-whining
+Section: web
+Architecture: all
+Pre-Depends: debconf
+Depends: redmine-core,
+	 cron-daemon,
+	 ${misc:Depends}
+Description: Redmine plugin: whining
+

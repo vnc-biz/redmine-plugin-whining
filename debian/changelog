@@ -1,0 +1,5 @@
+redmine-plugin-whining (0.0.3.2-precise0) precise; urgency=low
+
+  * Packaging for Ubuntu precise
+
+ -- Enrico Weigelt, metux IT service <weigelt@metux.de>  Wed, 03 Aug 2012 20:05:13 +0200

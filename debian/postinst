@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /usr/share/redmine && \
+	rake --trace db:migrate_plugins RAILS_ENV=production
+
+service cron restart
